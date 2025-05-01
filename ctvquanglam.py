@@ -14,7 +14,7 @@ else:  # macOS / Linux / Android
 os.makedirs(CACHE_DIR, exist_ok=True)
 # =======================================================
 
-API_KEY = os.getenv("TAINGUYENHUB_API_KEY", "78d6bc562cc1baed97a5f5c94066cf0a")
+API_KEY = os.getenv("TAINGUYENHUB_API_KEY", "a039a58ecbb7e03a22b393c8ceeb17ea")
 PROFILE_URL = "https://tainguyenhub.com/api/profile.php"
 UPLOAD_URL = "https://tainguyenhub.com/api/importAccount.php"
 
